@@ -82,9 +82,11 @@ Partial Class LeftMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(163, 658)
+        Me.AutoSize = True
+        Me.ClientSize = New System.Drawing.Size(163, 650)
         Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "LeftMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Menu"

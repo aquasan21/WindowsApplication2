@@ -122,4 +122,12 @@
     Private Sub TextBox25_TextChanged(sender As Object, e As EventArgs) Handles TextBox25.TextChanged
 
     End Sub
+
+    Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+
+    End Sub
+
+    Private Sub CR_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        MdiParent = Form1
+    End Sub
 End Class
